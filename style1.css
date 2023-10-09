@@ -10,30 +10,18 @@ h2 {
     
 }
 
-/* Teksti */
+
 p {
     color: #666;
     font-family: 'Times New Roman', serif;
     text-align: justify;
 }
 
-/* DIV-elementti, jossa on ID "kuvat-div" */
+
 #kuvat-div {
     background-color: #eee;
     border: 1px solid #ccc;
     padding: 10px;
 }
 
-/* Luokka "fancy-teksti" */
-.fancy-teksti {
-    color: blue;
-    font-weight: bold;
-}
 
-/* Luokka "pieni-kuva" (käytetty kuvien koon muuttamiseen) */
-.pieni-kuva {
-    max-width: 300px;
-    max-height: 200px;
-    float: center; 
-    margin: 10px;
-}
