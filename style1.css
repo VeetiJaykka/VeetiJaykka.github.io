@@ -1,10 +1,39 @@
 
 h1 {
-	color: yellow;
-	text-align: center;
+color: yellow;
+    font-family: Arial, sans-serif;
+    text-align: center;
+	background-color: black
 }
 
-p {	
-	
-	font-size: 200%; 
+h2 {
+    color: #555;
+}
+
+/* Teksti */
+p {
+    color: #666;
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+}
+
+/* DIV-elementti, jossa on ID "kuvat-div" */
+#kuvat-div {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Luokka "fancy-teksti" */
+.fancy-teksti {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Luokka "pieni-kuva" (käytetty kuvien koon muuttamiseen) */
+.pieni-kuva {
+    max-width: 300px;
+    max-height: 200px;
+    float: left; /* Esimerkki kelluvasta elementistä */
+    margin: 10px;
 }
