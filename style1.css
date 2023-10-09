@@ -34,6 +34,6 @@ p {
 .pieni-kuva {
     max-width: 300px;
     max-height: 200px;
-    float: left; /* Esimerkki kelluvasta elementistä */
+    float: center; 
     margin: 10px;
 }
