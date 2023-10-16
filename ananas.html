@@ -4,59 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ananas lonkero</title>
-    <link rel="stylesheet" href="style1.css"> 
-<style>
-h1 {
-            font-size: 34px; 
+    <link rel="stylesheet" href="style1.css"> <!-- Voit liittää CSS-tiedoston myöhemmin -->
+    <style>
+        h1 {
+            font-size: 34px;
         }
 
         h2 {
-            font-size: 30px; 
+            font-size: 30px;
         }
 
-        
         p {
-            font-size: 24px; 
+            font-size: 24px;
         }
-</style>
+    </style>
 </head>
 <body>
-    <h1 id="otsikko"><strong>Eri Ananas Lonkerot</strong></h1>
+    <header>
+        <h1 id="otsikko"><strong>Eri Ananas Lonkerot</strong></h1>
+    </header>
 
-    <h2 class="alaotsikko">Eri Ananas Lonkerot</h2>
-    <p class="fancy-teksti">Ananas lonkerot ovat iso osa suomalaisen miehen ja naisten elämää.</p>
-    
+    <nav>
+        <h2 class="alaotsikko">Eri Ananas Lonkerot</h2>
+        <p class="fancy-teksti">Ananas lonkerot ovat iso osa suomalaisen miehen ja naisten elämää.</p>
+    </nav>
 
-    <h2 class="alaotsikko">Eri tuotteet</h2>
-    <ul>
-        <li>Lava</li>
-        <li>Sixpack</li>
-        <li>Pitkä</li>
-        <li>Lasipullo</li>
-    </ul>
+    <section>
+        <h2 class="alaotsikko">Eri tuotteet</h2>
+        <ul>
+            <li>Lava</li>
+            <li>Sixpack</li>
+            <li>Pitkä</li>
+            <li>Lasipullo</li>
+        </ul>
+    </section>
 
+    <section>
+        <h2 class="alaotsikko">Kuvia</h2>
+        <figure id="kuvat-div">
+            <img src="033.jpg" alt="033" width="300" height="200">
+            <figcaption>Kuvassa normaali 0,33CL lonkero.</figcaption>
+            
+            <img src="sixpack.png" alt="sixpack" width="300" height="200">
+            <figcaption>Kuvassa sixpack.</figcaption>
+            
+            <img src="lava.jpg" alt="lava" width="300" height="200">
+            <figcaption>Kuvassa lava.</figcaption>
+        </figure>
+    </section>
 
-    <div id="kuvat-div">
-	<h2 class="alaotsikko">Kuvia</h2>
-        <img src="033.jpg" alt="033" width="300" height="200">
-        <p>Kuvassa normaali 0,33CL lonkero.</p>
-        <img src="sixpack.png" alt="sixpack" width="300" height="200">
-		<p>Kuvassa sixpack.</p>
-        <img src="lava.jpg" alt="lava" width="300" height="200">
-        <p>Kuvassa lava.</p>
-      
-    </div>
+    <section>
+        <h2 class="alaotsikko">Lisätietoa ananaslonkerosta</h2>
+        <p>
+            Lisätietoa harrastuksestani voit löytää <a href="https://www.hartwall.fi/juomat/long-drink-juomat/original-long-drink/original-long-drink-pineapple-55/">täältä</a>.
+        </p>
+    </section>
 
-    <h2 class="alaotsikko">Lisätietoa ananaslonkerosta.</h2>
-    <p>
-        Lisätietoa harrastuksestani voit löytää <a href="https://www.hartwall.fi/juomat/long-drink-juomat/original-long-drink/original-long-drink-pineapple-55/">täältä</a>.
-    </p>
+    <section>
+        <h2 class="alaotsikko">Yhteenveto</h2>
+        <p>
+            Ananas lonkeroita myydään erilaisissa muodoissa, esim. lasissa ja tölkissä.
 
-    <h2 class="alaotsikko">Yhteenveto</h2>
-    <p>
-        Ananas lonkeroita myydään erillaisissa muodoissa, esim lasissa, ja tölkissä.
-
-Kaupasta löytää useimmiten sixpack, lasipullo, 0,33l ja 0,5l kokoja tästä rakkaasta tuotteesta. <a href="https://www.hartwall.fi/juomat/long-drink-juomat/original-long-drink/original-long-drink-pineapple-55">täällä</a>.
-    </p>
+            Kaupasta löytää useimmiten sixpack, lasipullo, 0,33l ja 0,5l kokoja tästä rakkaasta tuotteesta. <a href="https://www.hartwall.fi/juomat/long-drink-juomat/original-long-drink/original-long-drink-pineapple-55">täällä</a>.
+        </p>
+    </section>
 </body>
 </html>
